@@ -28,12 +28,14 @@
 				and enter them using the space bar.
 				The completed crossword will be a valid grid,
 				i.e., all words will be in the dictionary,
-				and the grid will have twofold rotational symmetry.
+				the grid will have twofold rotational symmetry,
+				all words will be connected to each other,
+				and there will be no two-letter words.
 				For each subgrid, you have been given the letters that go there,
 				in the order they appear,
 				going from left to right, top to bottom.
 			</p><p>
-				Move the cursor with the arrow keys; switch to the orange mirror cursor using enter enter letters with the letter keys.
+				Move the cursor with the arrow keys. Switch to the orange mirror cursor using enter enter letters with the letter keys. Add a • to a cell to mark it as not black using the full stop key.
 			</p>
 			<div class="spacer"></div>
 			<label>
@@ -43,6 +45,10 @@
 			<label>
 				<input type="checkbox" id="mobile">
 				Mobile-friendly mode
+			</label>
+			<label>
+				<input type="checkbox" id="extra-rules">
+				Highlight islands and two-letter words
 			</label>
 			<a href="" id="permalink" target="_blank">Link to solve</a>
 			<span id="progress"></span>

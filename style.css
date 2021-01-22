@@ -114,7 +114,7 @@ body:not(.hide-mirror) #grid td.mirror {
 	background: #fdd;
 }
 #grid td.checker.block {
-	background: #800;
+	background: #522;
 	background-image: none !important;
 }
 #grid td.top { border-top: 2px solid black; }
@@ -241,4 +241,10 @@ body.mobile #keyboard button {
 @keyframes rotate {
 	from { transform: rotateY(0); }
 	to   { transform: rotateY(360deg); }
+}
+
+.extra-rules .two-letters,
+.extra-rules .island {
+	background: #f88 !important;
+	color: white;
 }
